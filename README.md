@@ -31,27 +31,27 @@ A blockchain is a publicly-managed and verified record of transactional data. Al
 
 # COMPONENTS
 
-'2.1 Blockchain'
+2.1 Blockchain
 
 A blockchain is a growing list of records, called blocks, that are linked together using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a Merkle tree). The timestamp proves that the transaction data existed when the block was published in order to get into its hash. As blocks each contain information about the block previous to it, they form a chain, with each additional block reinforcing the ones before it. Therefore, blockchains are resistant to modification of their data because once recorded, the data in any given block cannot be altered retroactively without altering all subsequent blocks.
 
-'2.1.1 Smart Contracts'
+2.1.1 Smart Contracts
 
 A smart contract is a computer program or a transactional Protocol which is intended to automatically execute, control or document legally relevant events and actions according to the terms of a contract or an agreement.​ The objectives of smart contracts are the reduction of need in trusted intermediators, arbitrations and enforcement costs, fraud losses, as well as the reduction of malicious and accidental exceptions.​ 
 
-'2.1.2 Ethereum'
+2.1.2 Ethereum
 
 Ethereum is a decentralized, open-source blockchain with smart-contract functionality. Ether. (ETH) is the native cryptocurrency of the platform. After Bitcoin, it is the second-largest cryptocurrency. 
 
-'2.2 Third Party System'
+2.2 Third Party System
 
 This is an off-chain centralised system or server where all the keys can be stored. The Data is encrypted with the help of an encryption algorithm called AES (Advanced Encryption Standard) and the key is generated using an cryptographic hash function called SHA-256 (Secure Hash Algorithm 2). 
 
-'2.2.1 Advanced Encryption Standard'
+2.2.1 Advanced Encryption Standard
 
 The AES algorithm (also known as the Rijndael algorithm) is a symmetrical block cipher algorithm that takes plain text in blocks of 128 bits and converts them to ciphertext using keys of 128, 192, and 256 bits. Since the AES algorithm is considered secure, it is in the worldwide standard. 
 
-'2.2.2 SHA-256'
+2.2.2 SHA-256
 
 A cryptographic hash (sometimes called ‘digest’) is a kind of ‘signature’ for a text or a data file. SHA-256 generates an almost-unique 256-bit (32-byte) signature for a text. 
 
@@ -62,8 +62,7 @@ The client can store the data (patient data) using front end technology (ex web 
 # Working
 
 Three components take part in the encryption, hashing and storage process and they are  Client, Blockchain and the Third party system. 
-
-'3.1 To store the encrypted data in the blockchain we follow the steps given below'
+3.1 To store the encrypted data in the blockchain we follow the steps given below
 
 - The client first creates a key using the data as key-text for the SHA-256 cryptographic hashing function. Now the generated key is used to encrypt the data locally using the AES encryption algorithm. 
 
@@ -71,7 +70,7 @@ Three components take part in the encryption, hashing and storage process and th
 
 - Now the encrypted data from the Third Party System is sent back to Client which sends this encrypted data from the Third Party System along with the locally generated key to the blockchain. The blockchain then writes this transaction in the block and stores the data in its database. Which means that every node connected to this blockchain network has this new encrypted data which is immutable. 
 
-'3.2 To fetch encrypted data from the blockchain  we follow the steps given below'
+3.2 To fetch encrypted data from the blockchain  we follow the steps given below
 
 - The encrypted data and the locally generated key stored in blockchain is fetched 
 
@@ -97,10 +96,10 @@ We know that the data in blockchain is immutable i.e once the data is written in
 - "How to Build Ethereum Dapp with React.js · Complete Step-By-Step Guide" https://www.dappuniversity.com/articles/ethereum-dapp-react-tutorial
 
 # Developer's details
-1.BHAVIRISETTI CHANDRASEKHAR - 16344254
-2.BATTULA RASI HARSHINI - 16341280
-3.BOLLINENI SANDEEP SAI - 16345740
-4.MUKTA HARINI - 16343090
+-1.BHAVIRISETTI CHANDRASEKHAR - 16344254
+-2.BATTULA RASI HARSHINI - 16341280
+-3.BOLLINENI SANDEEP SAI - 16345740
+-4.MUKTA HARINI - 16343090
 
 
 
